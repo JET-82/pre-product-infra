@@ -38,7 +38,7 @@ variable "private_subnets" {
 variable "public_subnets" {
   type        = list(string)
   description = "AWS public subnets cidr array"
-  default     = ["10.0.10.0/4", "10.0.12.0/24", "10.0.13.0/24"]
+  default     = ["10.0.11.0/24", "10.0.12.0/24", "10.0.13.0/24"]
 }
 
 variable "eks_cluster_name" {
